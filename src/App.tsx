@@ -1,6 +1,3 @@
-export default  function App() {
-  return (
-   <div className='text-red-600'>HOME</div>
-  )
+export default function App() {
+   return <div className="text-red-600">HOME</div>;
 }
-
