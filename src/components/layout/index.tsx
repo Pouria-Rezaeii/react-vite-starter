@@ -1,8 +1,12 @@
-export default function Layout({children}: React.PropsWithChildren) {
+import {Outlet} from "react-router-dom";
+
+export default function Layout() {
    return (
       <>
-         <header></header>
-         <main>{children}</main>
+         <header>header</header>
+         <main>
+            <Outlet />
+         </main>
       </>
    );
 }
